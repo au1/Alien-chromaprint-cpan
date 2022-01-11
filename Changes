@@ -2,6 +2,8 @@ Revision history for Alien-chromaprint
 
 {{$NEXT}}
 
+0.03      2022-01-12 02:41:39 +0300
+  - version up
 0.02      2022-01-11 22:03:57 +0300
   - hardcode libchromaprint version
 
