@@ -1,4 +1,6 @@
 Revision history for Alien-chromaprint
+{{Next}}
+  - hardcode libchromaprint version
 
 0.02      2019-06-25 12:08:40 -0400
   - inital CPAN release
