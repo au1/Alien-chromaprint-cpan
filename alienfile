@@ -4,7 +4,7 @@ plugin 'PkgConfig' => 'libchromaprint';
 
 share {
   plugin Download => (
-    url => 'https://github.com/acoustid/chromaprint/releases/download/v1.5.0',
+    url => 'https://github.com/acoustid/chromaprint/releases/download/v1.5.0/chromaprint-1.5.0.tar.gz',
 #    url => 'https://acoustid.org/chromaprint',
     filter => qr/chromaprint-[0-9\.]*\.tar\.gz$/,
     version => qr/(1\.5\.0)/,
