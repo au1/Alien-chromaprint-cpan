@@ -41,15 +41,8 @@ my %WriteMakefileArgs = (
   "ABSTRACT"       => "Alien for chromaprint",
   "AUTHOR"         => "Graham Ollis <plicease\@cpan.org>",
   "BUILD_REQUIRES" => {
-    "Alien::Build"        => "0.32",
-    "Alien::Build::MM"    => "0.32",
-    "ExtUtils::MakeMaker" => "6.52"
   },
   "CONFIGURE_REQUIRES" => {
-    "Alien::Build"                       => "0.32",
-    "Alien::Build::MM"                   => "0.32",
-    "Alien::Build::Plugin::Build::CMake" => "0.99",
-    "ExtUtils::MakeMaker"                => "6.52"
   },
   "DISTNAME"         => "Alien-chromaprint",
   "LICENSE"          => "perl",
@@ -59,26 +52,14 @@ my %WriteMakefileArgs = (
     "lib/Alien/chromaprint.pm" => "\$(INST_LIB)/Alien/chromaprint.pm"
   },
   "PREREQ_PM" => {
-    "Alien::Base" => "0.038"
   },
   "TEST_REQUIRES" => {
-    "Test2::V0"   => "0.000060",
-    "Test::Alien" => 0
   },
-  "VERSION" => "0.02",
   "test"    => {
     "TESTS" => "t/*.t"
   }
 );
 
-my %FallbackPrereqs = (
-  "Alien::Base"         => "0.038",
-  "Alien::Build"        => "0.32",
-  "Alien::Build::MM"    => "0.32",
-  "ExtUtils::MakeMaker" => "6.52",
-  "Test2::V0"           => "0.000060",
-  "Test::Alien"         => 0
-);
 
 # BEGIN code inserted by Dist::Zilla::Plugin::AlienBuild
 use Alien::Build::MM;
@@ -86,15 +67,6 @@ my $abmm = Alien::Build::MM->new;
 %WriteMakefileArgs = $abmm->mm_args(%WriteMakefileArgs);
 
 # END code inserted by Dist::Zilla::Plugin::AlienBuild
-
-unless ( eval { ExtUtils::MakeMaker->VERSION(6.63_03) } ) {
-  delete $WriteMakefileArgs{TEST_REQUIRES};
-  delete $WriteMakefileArgs{BUILD_REQUIRES};
-  $WriteMakefileArgs{PREREQ_PM} = \%FallbackPrereqs;
-}
-
-delete $WriteMakefileArgs{CONFIGURE_REQUIRES}
-  unless eval { ExtUtils::MakeMaker->VERSION(6.52) };
 
 WriteMakefile(%WriteMakefileArgs);
 
