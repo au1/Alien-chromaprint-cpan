@@ -10,3 +10,4 @@ configure_requires 'Alien::Build::Plugin::Build::CMake', '0.99';
 configure_requires 'ExtUtils::MakeMaker', '6.52';
 
 requires 'Alien::Base', '0.038';
+requires 'Alien::cmake3', '0.02';

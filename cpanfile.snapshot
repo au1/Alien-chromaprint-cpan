@@ -93,6 +93,20 @@ DISTRIBUTIONS
       Text::ParseWords 3.26
       parent 0
       perl 5.008004
+  Alien-cmake3-0.08
+    pathname: P/PL/PLICEASE/Alien-cmake3-0.08.tar.gz
+    provides:
+      Alien::cmake3 0.08
+    requirements:
+      Alien::Base 0.92
+      Alien::Build 1.19
+      Alien::Build::MM 0.32
+      Alien::Build::Plugin::Fetch::CurlCommand 1.19
+      Capture::Tiny 0
+      ExtUtils::MakeMaker 6.52
+      File::Which 0
+      Path::Tiny 0
+      perl 5.008001
   Capture-Tiny-0.48
     pathname: D/DA/DAGOLDEN/Capture-Tiny-0.48.tar.gz
     provides:
