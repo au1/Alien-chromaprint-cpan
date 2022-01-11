@@ -93,20 +93,6 @@ DISTRIBUTIONS
       Text::ParseWords 3.26
       parent 0
       perl 5.008004
-  Alien-cmake3-0.08
-    pathname: P/PL/PLICEASE/Alien-cmake3-0.08.tar.gz
-    provides:
-      Alien::cmake3 0.08
-    requirements:
-      Alien::Base 0.92
-      Alien::Build 1.19
-      Alien::Build::MM 0.32
-      Alien::Build::Plugin::Fetch::CurlCommand 1.19
-      Capture::Tiny 0
-      ExtUtils::MakeMaker 6.52
-      File::Which 0
-      Path::Tiny 0
-      perl 5.008001
   Capture-Tiny-0.48
     pathname: D/DA/DAGOLDEN/Capture-Tiny-0.48.tar.gz
     provides:
@@ -122,51 +108,6 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
-  Encode-3.16
-    pathname: D/DA/DANKOGAI/Encode-3.16.tar.gz
-    provides:
-      Encode 3.16
-      Encode::Alias 2.24
-      Encode::Byte 2.04
-      Encode::CJKConstants 2.02
-      Encode::CN 2.03
-      Encode::CN::HZ 2.10
-      Encode::Config 2.05
-      Encode::EBCDIC 2.02
-      Encode::Encoder 2.03
-      Encode::Encoding 2.08
-      Encode::GSM0338 2.10
-      Encode::Guess 2.08
-      Encode::JP 2.05
-      Encode::JP::H2Z 2.02
-      Encode::JP::JIS7 2.08
-      Encode::KR 2.03
-      Encode::KR::2022_KR 2.04
-      Encode::MIME::Header 2.28
-      Encode::MIME::Header::ISO_2022_JP 1.09
-      Encode::MIME::Name 1.03
-      Encode::Symbol 2.02
-      Encode::TW 2.03
-      Encode::UTF_EBCDIC 3.16
-      Encode::Unicode 2.19
-      Encode::Unicode::UTF7 2.10
-      Encode::XS 3.16
-      Encode::utf8 3.16
-      encoding 3.00
-    requirements:
-      Exporter 5.57
-      ExtUtils::MakeMaker 0
-      Storable 0
-      parent 0.221
-  Encode-Locale-1.05
-    pathname: G/GA/GAAS/Encode-Locale-1.05.tar.gz
-    provides:
-      Encode::Locale 1.05
-    requirements:
-      Encode 2
-      Encode::Alias 0
-      ExtUtils::MakeMaker 0
-      perl 5.008
   FFI-CheckLib-0.28
     pathname: P/PL/PLICEASE/FFI-CheckLib-0.28.tar.gz
     provides:
@@ -198,108 +139,6 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       vars 0
-  HTML-Parser-3.76
-    pathname: O/OA/OALDERS/HTML-Parser-3.76.tar.gz
-    provides:
-      HTML::Entities 3.76
-      HTML::Filter 3.76
-      HTML::HeadParser 3.76
-      HTML::LinkExtor 3.76
-      HTML::Parser 3.76
-      HTML::PullParser 3.76
-      HTML::TokeParser 3.76
-    requirements:
-      Carp 0
-      Exporter 0
-      ExtUtils::MakeMaker 6.52
-      HTML::Tagset 0
-      HTTP::Headers 0
-      IO::File 0
-      URI 0
-      URI::URL 0
-      XSLoader 0
-      strict 0
-  HTML-Tagset-3.20
-    pathname: P/PE/PETDANCE/HTML-Tagset-3.20.tar.gz
-    provides:
-      HTML::Tagset 3.20
-    requirements:
-      ExtUtils::MakeMaker 0
-  HTTP-Date-6.05
-    pathname: O/OA/OALDERS/HTTP-Date-6.05.tar.gz
-    provides:
-      HTTP::Date 6.05
-    requirements:
-      Exporter 0
-      ExtUtils::MakeMaker 0
-      Time::Local 1.28
-      Time::Zone 0
-      perl 5.006002
-      strict 0
-  HTTP-Message-6.36
-    pathname: O/OA/OALDERS/HTTP-Message-6.36.tar.gz
-    provides:
-      HTTP::Config 6.36
-      HTTP::Headers 6.36
-      HTTP::Headers::Auth 6.36
-      HTTP::Headers::ETag 6.36
-      HTTP::Headers::Util 6.36
-      HTTP::Message 6.36
-      HTTP::Request 6.36
-      HTTP::Request::Common 6.36
-      HTTP::Response 6.36
-      HTTP::Status 6.36
-    requirements:
-      Carp 0
-      Compress::Raw::Zlib 0
-      Encode 3.01
-      Encode::Locale 1
-      Exporter 5.57
-      ExtUtils::MakeMaker 0
-      File::Spec 0
-      HTTP::Date 6
-      IO::Compress::Bzip2 2.021
-      IO::Compress::Deflate 0
-      IO::Compress::Gzip 0
-      IO::HTML 0
-      IO::Uncompress::Bunzip2 2.021
-      IO::Uncompress::Gunzip 0
-      IO::Uncompress::Inflate 0
-      IO::Uncompress::RawInflate 0
-      LWP::MediaTypes 6
-      MIME::Base64 2.1
-      MIME::QuotedPrint 0
-      URI 1.10
-      base 0
-      perl 5.008001
-      strict 0
-      warnings 0
-  IO-HTML-1.004
-    pathname: C/CJ/CJM/IO-HTML-1.004.tar.gz
-    provides:
-      IO::HTML 1.004
-    requirements:
-      Carp 0
-      Encode 2.10
-      Exporter 5.57
-      ExtUtils::MakeMaker 0
-      perl 5.008
-  IO-Socket-SSL-2.074
-    pathname: S/SU/SULLR/IO-Socket-SSL-2.074.tar.gz
-    provides:
-      IO::Socket::SSL 2.074
-      IO::Socket::SSL::Intercept 2.056
-      IO::Socket::SSL::OCSP_Cache 2.074
-      IO::Socket::SSL::OCSP_Resolver 2.074
-      IO::Socket::SSL::PublicSuffix undef
-      IO::Socket::SSL::SSL_Context 2.074
-      IO::Socket::SSL::SSL_HANDLE 2.074
-      IO::Socket::SSL::Session_Cache 2.074
-      IO::Socket::SSL::Utils 2.015
-    requirements:
-      ExtUtils::MakeMaker 0
-      Net::SSLeay 1.46
-      Scalar::Util 0
   Importer-0.026
     pathname: E/EX/EXODIST/Importer-0.026.tar.gz
     provides:
@@ -307,18 +146,6 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       perl 5.008001
-  LWP-MediaTypes-6.04
-    pathname: O/OA/OALDERS/LWP-MediaTypes-6.04.tar.gz
-    provides:
-      LWP::MediaTypes 6.04
-    requirements:
-      Carp 0
-      Exporter 0
-      ExtUtils::MakeMaker 0
-      File::Basename 0
-      Scalar::Util 0
-      perl 5.006002
-      strict 0
   Module-Pluggable-5.2
     pathname: S/SI/SIMONW/Module-Pluggable-5.2.tar.gz
     provides:
@@ -335,15 +162,6 @@ DISTRIBUTIONS
       if 0
       perl 5.00503
       strict 0
-  Net-SSLeay-1.90
-    pathname: C/CH/CHRISN/Net-SSLeay-1.90.tar.gz
-    provides:
-      Net::SSLeay 1.90
-      Net::SSLeay::Handle 1.90
-    requirements:
-      ExtUtils::MakeMaker 0
-      MIME::Base64 0
-      perl 5.008001
   Path-Tiny-0.120
     pathname: D/DA/DAGOLDEN/Path-Tiny-0.120.tar.gz
     provides:
@@ -378,16 +196,6 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Test::More 0
       perl 5.006001
-  Sort-Versions-1.62
-    pathname: N/NE/NEILB/Sort-Versions-1.62.tar.gz
-    provides:
-      Sort::Versions 1.62
-    requirements:
-      Exporter 0
-      ExtUtils::MakeMaker 0
-      perl 5.006
-      strict 0
-      warnings 0
   Sub-Info-0.002
     pathname: E/EX/EXODIST/Sub-Info-0.002.tar.gz
     provides:
@@ -635,124 +443,3 @@ DISTRIBUTIONS
       overload 0
       perl 5.008001
       utf8 0
-  Time-Local-1.30
-    pathname: D/DR/DROLSKY/Time-Local-1.30.tar.gz
-    provides:
-      Time::Local 1.30
-    requirements:
-      Carp 0
-      Exporter 0
-      ExtUtils::MakeMaker 0
-      constant 0
-      parent 0
-      strict 0
-  TimeDate-2.33
-    pathname: A/AT/ATOOMIC/TimeDate-2.33.tar.gz
-    provides:
-      Date::Format 2.24
-      Date::Format::Generic 2.24
-      Date::Language 1.10
-      Date::Language::Afar 0.99
-      Date::Language::Amharic 1.00
-      Date::Language::Austrian 1.01
-      Date::Language::Brazilian 1.01
-      Date::Language::Bulgarian 1.01
-      Date::Language::Chinese 1.00
-      Date::Language::Chinese_GB 1.01
-      Date::Language::Czech 1.01
-      Date::Language::Danish 1.01
-      Date::Language::Dutch 1.02
-      Date::Language::English 1.01
-      Date::Language::Finnish 1.01
-      Date::Language::French 1.04
-      Date::Language::Gedeo 0.99
-      Date::Language::German 1.02
-      Date::Language::Greek 1.00
-      Date::Language::Hungarian 1.01
-      Date::Language::Icelandic 1.01
-      Date::Language::Italian 1.01
-      Date::Language::Norwegian 1.01
-      Date::Language::Occitan 1.04
-      Date::Language::Oromo 0.99
-      Date::Language::Romanian 1.01
-      Date::Language::Russian 1.01
-      Date::Language::Russian_cp1251 1.01
-      Date::Language::Russian_koi8r 1.01
-      Date::Language::Sidama 0.99
-      Date::Language::Somali 0.99
-      Date::Language::Spanish 1.00
-      Date::Language::Swedish 1.01
-      Date::Language::Tigrinya 1.00
-      Date::Language::TigrinyaEritrean 1.00
-      Date::Language::TigrinyaEthiopian 1.00
-      Date::Language::Turkish 1.0
-      Date::Parse 2.33
-      Time::Zone 2.24
-      TimeDate 1.21
-    requirements:
-      ExtUtils::MakeMaker 0
-  URI-5.10
-    pathname: O/OA/OALDERS/URI-5.10.tar.gz
-    provides:
-      URI 5.10
-      URI::Escape 5.10
-      URI::Heuristic 5.10
-      URI::IRI 5.10
-      URI::QueryParam 5.10
-      URI::Split 5.10
-      URI::URL 5.10
-      URI::WithBase 5.10
-      URI::data 5.10
-      URI::file 5.10
-      URI::file::Base 5.10
-      URI::file::FAT 5.10
-      URI::file::Mac 5.10
-      URI::file::OS2 5.10
-      URI::file::QNX 5.10
-      URI::file::Unix 5.10
-      URI::file::Win32 5.10
-      URI::ftp 5.10
-      URI::gopher 5.10
-      URI::http 5.10
-      URI::https 5.10
-      URI::ldap 5.10
-      URI::ldapi 5.10
-      URI::ldaps 5.10
-      URI::mailto 5.10
-      URI::mms 5.10
-      URI::news 5.10
-      URI::nntp 5.10
-      URI::nntps 5.10
-      URI::pop 5.10
-      URI::rlogin 5.10
-      URI::rsync 5.10
-      URI::rtsp 5.10
-      URI::rtspu 5.10
-      URI::sftp 5.10
-      URI::sip 5.10
-      URI::sips 5.10
-      URI::snews 5.10
-      URI::ssh 5.10
-      URI::telnet 5.10
-      URI::tn3270 5.10
-      URI::urn 5.10
-      URI::urn::isbn 5.10
-      URI::urn::oid 5.10
-    requirements:
-      Carp 0
-      Cwd 0
-      Data::Dumper 0
-      Encode 0
-      Exporter 5.57
-      ExtUtils::MakeMaker 0
-      MIME::Base64 2
-      Net::Domain 0
-      Scalar::Util 0
-      constant 0
-      integer 0
-      overload 0
-      parent 0
-      perl 5.008001
-      strict 0
-      utf8 0
-      warnings 0
