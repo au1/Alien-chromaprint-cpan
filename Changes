@@ -1,7 +1,7 @@
 Revision history for Alien-chromaprint
 
 {{$NEXT}}
-
+  - more dist::milla support
 0.02      2022-01-11 22:03:57 +0300
   - hardcode libchromaprint version
 
