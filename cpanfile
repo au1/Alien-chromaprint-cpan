@@ -1,16 +1,8 @@
-configure_requires 'Alien::Build', '0.32';
-configure_requires 'Alien::Build::MM', '0.32';
-configure_requires 'Alien::Build::Plugin::Build::CMake', '0.99';
-configure_requires 'ExtUtils::MakeMaker', '6.52';
-
-build_requires 'Alien::Build', '0.32';
-build_requires 'Alien::Build::MM', '0.32';
-build_requires 'ExtUtils::MakeMaker', '6.52';
-
-test_requires 'Test2::V0', '0.000060';
-test_requires 'Test::Alien', '0';
-
 requires 'Alien::Base', '0.038';
+requires 'Alien::Build', '0.32';
+requires 'Alien::Build::MM', '0.32';
+requires 'Alien::Build::Plugin::Build::CMake', '0.99';
+requires 'ExtUtils::MakeMaker', '6.52';
 requires 'Alien::cmake3', '0.02';
 requires 'Archive::Tar', '0';
 requires 'Config', '0';
@@ -22,3 +14,5 @@ requires 'Net::SSLeay', '1.49';
 requires 'Sort::Versions', '0';
 requires 'URI', '0';
 requires 'URI::Escape', '0';
+requires 'Test2::V0', '0.000060';
+requires 'Test::Alien', '0';
